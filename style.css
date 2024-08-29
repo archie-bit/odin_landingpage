@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.hero,
+.header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: #F9FaF8;
+    background-color: #1F2937;
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero {
+    justify-content: center;
+    gap: 60px;
+}
+.info{
+    height: 450px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+}
+
+
+.quote-box {
+    padding: 100px 10px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sign-up-box{
+    display: flex;
+    padding: 120px;
+    background-color: #F9FaF8;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.head-links{
+    padding: 0px;
+    margin: 0px;
+    /* border: solid; */
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FaF8;
+}
+.logo{
+    /* border: solid; */
+    color: #F9FaF8;
+    font-size: 24px;
+}
+
+.hero-text{
+    width: 350px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-img {
+    width: 600px;
+    height: auto;
+}
+
+.sign-up-button{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #F9FaF8;
+    background-color: #3882f6;
+    cursor: pointer;
+}
+
+.info-illust{
+    text-align: center;
+    display: flex;
+    gap: 100px;
+
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: 900px;
+    color: 
+    #1F2937;
+} 
+.info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+}
+
+.illust-seg div {
+    width: 150px;
+}
+
+.quote-text{
+    padding: 0%;
+    width: 800px;
+    font-style:italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-narrator {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.inside-sign{
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.inside-sign .sign-up-button {
+    border: 3px solid #F9FaF8;
+    
+}
+
+.sign-up-text {
+    color: #F9FaF8;
+}
+
+.sign-up-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F9FaF8;
+}
